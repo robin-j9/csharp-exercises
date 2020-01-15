@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Text;
 
 namespace GradebookArray
 {
@@ -41,13 +42,14 @@ namespace GradebookArray
             // Print class roster, summing grades as we go
             Console.WriteLine("\nClass roster:");
             double sum = 0;
+            StringBuilder studentInfo = new StringBuilder();
 
             for (int j = 0; j < numStudents; j++)
             {
-                Console.WriteLine(students[j] + " (" + grades[j] + ")");
+                studentInfo.Append(students[j] + " (" + grades[j] + ")\n");
                 sum += grades[j];
             }
-            
+            Console.WriteLine(studentInfo);
             double avg = sum / numStudents;
             Console.WriteLine("Average grade: " + avg);
 
