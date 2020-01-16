@@ -8,8 +8,8 @@ namespace WordsWith5Letters
         static void Main(string[] args)
         {
             string[] words = { "apple", "banana", "kiwi", "melon" };
-            List<string> wordList = new List<string>(words);
-            Program.Print5LetterWords(wordList);
+            list<string> wordlist = new list<string>(words);
+            Print5LetterWords(wordList);
         }
 
         static void Print5LetterWords(List<string> wordList)

@@ -9,7 +9,7 @@ namespace SumEvenNumbers
         {
             int[] nums = { 1, 3, 15, 22, 25, 13, 18, 6, 10 };
             List<int> numbers = new List<int>(nums);
-            Console.WriteLine(Program.SumEven(numbers));
+            Console.WriteLine(SumEven(numbers));
         }
 
         static int SumEven(List<int> numbers)
