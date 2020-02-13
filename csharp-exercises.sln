@@ -26,15 +26,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchAliceInWonderland", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AreaCircle", "AreaCircle\AreaCircle.csproj", "{93CDD266-6793-47AA-965D-24FE19A8F923}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumEvenNumbers", "SumEvenNumbers\SumEvenNumbers.csproj", "{7BA81C83-215D-438D-8886-1AB39213B52D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumEvenNumbers", "SumEvenNumbers\SumEvenNumbers.csproj", "{7BA81C83-215D-438D-8886-1AB39213B52D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordsWith5Letters", "WordsWith5Letters\WordsWith5Letters.csproj", "{830A9F25-A406-4D96-BE67-27A348FFC792}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordsWith5Letters", "WordsWith5Letters\WordsWith5Letters.csproj", "{830A9F25-A406-4D96-BE67-27A348FFC792}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintArrayValues", "PrintArrayValues\PrintArrayValues.csproj", "{EA8BC7D0-F635-4399-8881-1553B7FFCB85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintArrayValues", "PrintArrayValues\PrintArrayValues.csproj", "{EA8BC7D0-F635-4399-8881-1553B7FFCB85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentRoster", "StudentRoster\StudentRoster.csproj", "{007CE476-E0D1-4CBB-AF58-B5079547420E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentRoster", "StudentRoster\StudentRoster.csproj", "{007CE476-E0D1-4CBB-AF58-B5079547420E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountingCharacters", "CountingCharacters\CountingCharacters.csproj", "{A79141C4-66E1-4F3C-B462-772FD38A0C63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountingCharacters", "CountingCharacters\CountingCharacters.csproj", "{A79141C4-66E1-4F3C-B462-772FD38A0C63}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "School", "School\School.csproj", "{8C4AA8ED-EE0B-4925-BA6B-4B8B598FF459}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant", "Restaurant\Restaurant.csproj", "{A19A1D48-D686-4457-AE56-0050E4A954FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -110,6 +114,14 @@ Global
 		{A79141C4-66E1-4F3C-B462-772FD38A0C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A79141C4-66E1-4F3C-B462-772FD38A0C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A79141C4-66E1-4F3C-B462-772FD38A0C63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C4AA8ED-EE0B-4925-BA6B-4B8B598FF459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C4AA8ED-EE0B-4925-BA6B-4B8B598FF459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C4AA8ED-EE0B-4925-BA6B-4B8B598FF459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C4AA8ED-EE0B-4925-BA6B-4B8B598FF459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A19A1D48-D686-4457-AE56-0050E4A954FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A19A1D48-D686-4457-AE56-0050E4A954FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A19A1D48-D686-4457-AE56-0050E4A954FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A19A1D48-D686-4457-AE56-0050E4A954FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
