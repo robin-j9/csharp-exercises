@@ -16,15 +16,6 @@ namespace Restaurant
         public List<MenuItem> MenuItems { get; set; } = new List<MenuItem>();
         public DateTime LastUpdated { get; set; }
 
-        public void Add(MenuItem item)
-        {
-            MenuItems.Add(item);
-        }
-
-        public void Remove(MenuItem item)
-        {
-            MenuItems.Remove(item);
-        }
     }
 
     public enum Category { Appetizer, MainCourse, Desert }
