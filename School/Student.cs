@@ -39,22 +39,10 @@ namespace School
 
             public string GetGradeLevel()
             {
-                if (NumberOfCredits < 30)
-                {
-                    return "freshman";
-                }
-                else if (NumberOfCredits < 60)
-                {
-                    return "sophomore";
-                }
-                else if (NumberOfCredits < 90)
-                {
-                    return "junior";
-                }
-                else
-                {
-                    return "senior";
-                }
+                if (NumberOfCredits < 30) return "freshman";
+                if (NumberOfCredits < 60) return "sophomore";
+                if (NumberOfCredits < 90) return "junior";
+                return "senior";
             }
 
             public override string ToString()
