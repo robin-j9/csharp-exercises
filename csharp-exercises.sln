@@ -40,7 +40,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "School", "School\School.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurant", "Restaurant\Restaurant.csproj", "{A19A1D48-D686-4457-AE56-0050E4A954FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassDiagram", "ClassDiagram\ClassDiagram.csproj", "{D2AF5A17-04A1-4532-84CB-A584858BB55B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassDiagram", "ClassDiagram\ClassDiagram.csproj", "{D2AF5A17-04A1-4532-84CB-A584858BB55B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizStudio", "QuizStudio\QuizStudio.csproj", "{CCF938D6-5CAF-4347-88B8-8CE7C2814367}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -128,6 +130,10 @@ Global
 		{D2AF5A17-04A1-4532-84CB-A584858BB55B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2AF5A17-04A1-4532-84CB-A584858BB55B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2AF5A17-04A1-4532-84CB-A584858BB55B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCF938D6-5CAF-4347-88B8-8CE7C2814367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF938D6-5CAF-4347-88B8-8CE7C2814367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCF938D6-5CAF-4347-88B8-8CE7C2814367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF938D6-5CAF-4347-88B8-8CE7C2814367}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

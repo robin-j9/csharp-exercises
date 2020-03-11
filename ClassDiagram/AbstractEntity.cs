@@ -15,5 +15,7 @@ namespace ClassDiagram
                 return id;
             }
         }
+
+        // public Guid id (unique id)
     }
 }
