@@ -8,8 +8,8 @@ namespace QuizStudio
     {
         public List<Question> quiz = new List<Question>();
         private List<string> input = new List<string>();
-        private int totalScore;
-        public int TotalPossibleScore { get; set; }
+        private double totalScore;
+        public double TotalPossibleScore { get; set; }
         
 
         public void Add(Question newQuestion)
@@ -62,7 +62,7 @@ namespace QuizStudio
 
         public void PrintGrade()
         {
-            Console.WriteLine("You got " + totalScore + " / " + TotalPossibleScore + " questions right.");
+            Console.WriteLine("You got " + totalScore + " / " + TotalPossibleScore + " points.");
             double grade = (totalScore / TotalPossibleScore) * 100;
             Console.WriteLine(grade + "%");
         }
